@@ -30,12 +30,15 @@ GitLookup is a React web application that allows users to search for GitHub user
    ```bash
    npm install
    ```
-3. Edit the utils.ts file to include your GitHub API token:
-   ```typescript
-   const TOKEN = "your_github_api_token_here";
+3. Edit the .env file:
+
    ```
-   Replace `'your_github_api_token_here'` with your actual GitHub API token. You can generate a token from your GitHub account settings under Developer settings.
+   VITE_GITHUB_TOKEN=your_token_here
+   ```
+
+   Replace `'your_token_here'` with your actual GitHub API token. You can generate a token from your GitHub account settings under Developer settings.
    Make sure to keep this token secure and do not expose it in public repositories.
+
 4. Start the development server:
    ```bash
    npm start
