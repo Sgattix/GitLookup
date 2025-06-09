@@ -1,4 +1,4 @@
-export const TOKEN = "YOUR_GITHUB_PERSONAL_ACCESS_TOKEN";
+export const TOKEN = import.meta.env.VITE_GITHUB_TOKEN || "";
 
 export const searchUsers = async (
   username: string,
