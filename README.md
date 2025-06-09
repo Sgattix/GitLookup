@@ -23,7 +23,7 @@ GitLookup is a React web application that allows users to search for GitHub user
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/GitLookup.git
+   git clone https://github.com/Sgattix/GitLookup.git
    cd GitLookup
    ```
 2. Install dependencies:
